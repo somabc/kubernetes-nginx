@@ -4,10 +4,9 @@ Deploy Nginx loadbalancer via pulumi infrastructure as code. This allows multi-c
 
 In this case we will use Python -
 
-```virtualenv -p python3 venv
+```
 
+virtualenv -p python3 venv
 source venv/bin/activate
-
 pip3 install -r requirements.txt
-
 pulumi up
